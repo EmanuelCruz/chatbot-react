@@ -3,15 +3,19 @@ import Lottie from "react-lottie";
 import "./Bot.css";
 import animationBot from "./bot-sunny.json";
 
-const Cat = () => {
+const Cat = ({ history }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationBot,
   };
 
+  function handleonClick() {
+    history.push("/chat");
+  }
+
   return (
-    <div className="bot-container">
+    <div onClick={handleonClick} className="bot-container">
       <Lottie options={defaultOptions} />
       <label>¡Buenos dias!</label>
     </div>

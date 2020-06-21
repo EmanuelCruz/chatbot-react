@@ -1,11 +1,10 @@
 import React from "react";
-import App from "../../App";
 import Bot from "./components/Bot/Bot";
 
-const Home = () => {
+const Home = ({ history }) => {
   return (
     <div>
-      <Bot />
+      <Bot cat history={history} />
     </div>
   );
 };
