@@ -17,7 +17,6 @@ const Cat = ({ history }) => {
   return (
     <div onClick={handleonClick} className="bot-container">
       <Lottie options={defaultOptions} />
-      <label>¡Buenos dias!</label>
     </div>
   );
 };
