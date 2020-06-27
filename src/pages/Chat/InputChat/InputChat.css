@@ -1,0 +1,37 @@
+.chatbot-chat-input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-chat-input-container input {
+  width: 80%;
+  border: 1px solid #e7f8fe;
+  color: black;
+  background: #beedfd;
+  height: 35px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 25px;
+  outline: none; /* TODO: buscar que hace outline */
+}
+
+.chatbot-chat-input-container input::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.chatbot-chat-input-container button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #2f7c28;
+  background: #2f7c28;
+  background-image: url(../../../assets/imagenes/send.svg);
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16);
+}

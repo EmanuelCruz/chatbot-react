@@ -1,0 +1,26 @@
+.bot-item-container {
+  display: flex;
+  width: auto;
+}
+
+.bot-item-container img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.bot-item-container label {
+  margin: 6px 5px 6px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #2980b9;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content; /* TODO: investigar fit-content*/
+  box-sizing: border-box;
+}
+
+.bot-item-messages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
