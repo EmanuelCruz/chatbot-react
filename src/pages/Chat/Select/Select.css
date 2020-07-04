@@ -1,0 +1,35 @@
+.selector-container {
+  margin-left: 55px;
+}
+.selector-content {
+  background-color: #ff9900;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.selector-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.selector-options label {
+  background-color: #ffdc7a8f;
+  width: 100%;
+  /* height: auto;  */
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.selector-content :last-child {
+  margin-bottom: 0px;
+}
+
+.selector-options label:hover {
+  background: #ffdc7a;
+}
