@@ -1,22 +1,21 @@
 .chatbot-chat-input-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .chatbot-chat-input-container input {
   font-family: "Englebert";
   letter-spacing: 2px;
-  width: 80%;
+  width: 100%;
   border: 1px solid #e7f8fe;
   color: black;
   background: #beedfd;
   height: 35px;
-  padding-left: 20px;
+  padding: 0px 20px;
   box-sizing: border-box;
   border-radius: 25px;
   outline: none; /* TODO: buscar que hace outline */
+  margin-right: 5px;
 }
 
 .chatbot-chat-input-container input::placeholder {
