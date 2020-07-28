@@ -24,6 +24,7 @@
   letter-spacing: 2px;
   padding: 10px;
   box-sizing: border-box;
+  transition: all 0.4s ease-out;
 }
 
 .selector-content :last-child {
