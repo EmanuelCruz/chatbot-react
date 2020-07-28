@@ -41,3 +41,9 @@
   width: 100%;
   margin-top: auto;
 }
+
+@media (min-width: 768px) {
+  .chatbot-chat-content {
+    width: 400px;
+  }
+}
