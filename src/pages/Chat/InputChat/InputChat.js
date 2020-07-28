@@ -16,7 +16,15 @@ const InputChat = ({ chat, msg, sendMessage, getMeMessage }) => {
         value={msg.msg}
         type="text"
       />
-      <button type="submit" />
+      <button
+        type="submit"
+        disabled={msg.msg === undefined || msg.msg === "" ? true : false}
+        className={
+          msg.msg === undefined || msg.msg === ""
+            ? "btn-send-disabled"
+            : "btn-send-enabled"
+        }
+      />
     </form>
   );
 };
