@@ -8,13 +8,13 @@ const InputChat = ({ chat, msg, sendMessage, getMeMessage }) => {
       className="chatbot-chat-input-container"
     >
       <input
+        type="text"
         disabled={chat.length >= 3 ? true : false}
         onChange={(e) => getMeMessage(e.target.value)}
         placeholder={
           chat.length >= 3 ? "Ya no podes escribir." : "Escribí tu nombre"
         }
         value={msg.msg}
-        type="text"
       />
       <button
         type="submit"
