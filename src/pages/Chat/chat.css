@@ -9,7 +9,7 @@
 
 .chatbot-chat-content {
   width: 90%;
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,9 @@
 .chatbot-chat-container-body {
   width: 100%;
   height: 90%;
-  overflow: scroll;
+  /*oculto la barra de scroll en firefox*/
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 
 .chatbot-chat-container-body::-webkit-scrollbar {
@@ -39,7 +41,7 @@
 
 .chatbot-chat-container-input {
   width: 100%;
-  margin-top: auto;
+  margin-top: 8px;
 }
 
 @media (min-width: 768px) {
